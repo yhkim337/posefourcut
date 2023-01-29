@@ -1,0 +1,89 @@
+#wrapper {
+    width: 360px;
+    margin: 0 auto;
+  }
+
+.pose4cut_intro_logo {
+  width: 187px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  color: #000000;
+
+  margin-top: 52px;
+  margin-bottom: 5px;
+}
+
+.pose4cut_intro_phrase {
+  width: 294px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+
+  margin-top: 5px;
+}
+
+.posestart {
+  width: 111px;
+  height: 37px;
+  left: 231px;
+  top: 683px;
+
+  background: #000000;
+  border-radius: 300px;
+
+  margin-top: 100px;
+  margin-right: 18px;
+  margin-left: 231px;
+  margin-bottom: 60px;
+}
+
+.posestart_phrase {
+  width: 39px;
+  height: 18px;
+  left: 29px;
+  top: 10px;
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.frame_option {
+  display: flex;
+  margin-top: 136px;
+}
+
+.fourbyone {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.twobytwo {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.form-check {
+  margin-top: 50px;
+  text-align: center;
+}
+  

@@ -8,5 +8,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', poseSelect.views.index, name='index'),
     path('fourbyone/', poseSelect.views.fourbyone, name='fourbyone'),
+    path('twobytwo/', poseSelect.views.twobytwo, name='twobytwo'),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

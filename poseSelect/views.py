@@ -5,3 +5,6 @@ def index(request):
 
 def fourbyone(request):
     return render(request, 'poseSelect/fourbyone.html')
+
+def twobytwo(request):
+    return render(request, 'poseSelect/twobytwo.html')

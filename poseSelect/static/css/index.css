@@ -39,41 +39,6 @@
   margin-top: 5px;
 }
 
-.posestart {
-  width: 111px;
-  height: 37px;
-  left: 231px;
-  top: 683px;
-
-  background: #000000;
-  border-radius: 300px;
-
-  margin-top: 75px;
-  margin-right: 18px;
-  margin-left: 231px;
-  margin-bottom: 60px;
-}
-
-.posestart_phrase {
-  width: 39px;
-  height: 18px;
-  left: 29px;
-  top: 10px;
-  
-  font-family: 'Pretendard';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
-  
-  color: #FFFFFF;
-
-  margin-top: 75px;
-  margin-right: 18px;
-  margin-left: 231px;
-  margin-bottom: 60px;
-}
-
 .frame_option {
   display: flex;
   margin-top: 136px;
@@ -93,4 +58,75 @@
   margin-top: 50px;
   text-align: center;
 }
-  
+
+.posechoose {
+  height: 23px;
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 90px;
+}
+
+.gohome {
+  width: 70px;
+  height: 24px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #000000;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame_fourbyone {
+  width: 218.17px;
+  height: 650px;
+  margin-left: 71px;
+  margin-top: 81px;
+  background: #000000;
+}
+
+.fourbyone_1 {
+  width: 183px;
+  height: 147px;
+  margin-left: 17px;
+  margin-top: 36px;
+  background: #FFFFFF;
+}
+
+.fourbyone_2 {
+  width: 183px;
+  height: 147px;
+  margin-left: 17px;
+  margin-top: 186px;
+
+  background: #FFFFFF;
+}
+
+.fourbyone_3 {
+  width: 183px;
+  height: 147px;
+  margin-left: 17px;
+  margin-top: 336px;
+
+  background: #FFFFFF;
+}

@@ -1,20 +1,26 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
 
 #wrapper {
-    width: 360px;
+    width: 390px;
     margin: 0 auto;
   }
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
 
 .pose4cut_intro_logo {
   width: 187px;
   height: 42px;
-  left: 0px;
+  margin-left: 16px;
   top: 0px;
 
   font-family: "Pretendard";
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
+  /* font-size: 10vw; */
   line-height: 42px;
   color: #000000;
 
@@ -25,13 +31,14 @@
 .pose4cut_intro_phrase {
   width: 294px;
   height: 21px;
-  left: 0px;
+  margin-left: 16px;
   top: 0px;
 
   font-family: "Pretendard";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
+  /* font-size: 4vw; */
   line-height: 21px;
 
   color: #000000;
@@ -76,13 +83,14 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-top: 90px;
+  margin-top: 107px;
 }
 
 .gohome {
-  width: 70px;
+  width: 100px;
   height: 24px;
-
+  margin-top : 24px;
+  margin-left : 44px;
   font-family: 'Pretendard';
   font-style: normal;
   font-weight: 700;
@@ -98,14 +106,17 @@
 }
 
 .frame_fourbyone {
+  position: absolute;
   width: 218.17px;
   height: 650px;
   margin-left: 71px;
   margin-top: 81px;
   background: #000000;
+  margin-top : 33px
 }
 
 .fourbyone_1 {
+  position: absolute;
   width: 183px;
   height: 147px;
   margin-left: 17px;
@@ -114,6 +125,7 @@
 }
 
 .fourbyone_2 {
+  position: absolute;
   width: 183px;
   height: 147px;
   margin-left: 17px;
@@ -123,6 +135,7 @@
 }
 
 .fourbyone_3 {
+  position: absolute;
   width: 183px;
   height: 147px;
   margin-left: 17px;
@@ -130,3 +143,105 @@
 
   background: #FFFFFF;
 }
+
+.fourbyone_4 {
+  position: absolute;
+  width: 183px;
+  height: 147px;
+  margin-left: 17px;
+  margin-top: 486px;
+
+  background: #FFFFFF;
+}
+
+.backarrow {
+  Width : 10.85px;
+  Height : 18.95px;
+  Top : 2.52px;
+  Left : 6.43px;
+  background: #000000;
+}
+
+.savebox {
+  position: fixed;
+  box-sizing: border-box;
+  width: 69px;
+  height: 69px;
+  right: 25px;
+  bottom: 115px;
+}
+
+.instagram {
+  position: fixed;
+  box-sizing: border-box;
+  width: 69px;
+  height: 69px;
+  right: 25px;
+  bottom: 37px;
+}
+
+.frame_twobytwo {
+  position: absolute;
+  width: 329.1px;
+  height: 490px;
+  margin-left: 16px;
+  margin-top: 148px;
+
+  background: #000000;
+}
+
+.twobytwo_1 {
+  position: absolute;
+  width: 149px;
+  height: 204px;
+  left: 14px;
+  top: 29px;
+
+  background: #FFFFFF;
+}
+
+.twobytwo_2 {
+  position: absolute;
+  width: 149px;
+  height: 204px;
+  left: 167px;
+  top: 29px;
+  
+  background: #FFFFFF;
+}
+
+.twobytwo_3 {
+  position: absolute;
+  width: 149px;
+  height: 204px;
+  left: 14px;
+  top: 263px;
+
+  background: #FFFFFF;
+}
+
+.twobytwo_4 {
+  position: absolute;
+  width: 149px;
+  height: 204px;
+  left: 167px;
+  top: 263px;
+
+  background: #FFFFFF;
+}
+
+.fourbyone1 {
+  position: fixed;
+  left : 22px;
+  top: 13px;
+}
+
+.gobackbutton {
+  position: fixed;
+  box-sizing: border-box;
+  width: 69px;
+  height: 69px;
+  right: 25px;
+  bottom: 37px;
+}
+

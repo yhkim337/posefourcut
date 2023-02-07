@@ -12,13 +12,30 @@
   <body>
     <div id="wrapper">
       <div class="gohome">
+        <a href="{% url 'index' %}">
+          <img src="{% static 'images/backarrow.png' %}" style="width:21.7px; height:18.95px;">
           뒤로가기
+        </a>
       </div>
       <div class="frame_fourbyone">
-        <div class="fourbyone_1"></div>
-        <div class="fourbyone_2"></div>
-        <div class="fourbyone_3"></div>
-        <div class="fourbyone_4"></div>
+        <a href="{% url 'fourbyone_1' %}">
+          <div class="fourbyone_1"></div>
+        </a>
+        <a href="{% url 'fourbyone_2' %}">
+          <div class="fourbyone_2"></div>
+        </a>
+        <a href="{% url 'fourbyone_3' %}">
+          <div class="fourbyone_3"></div>
+        </a>
+        <a href="{% url 'fourbyone_4' %}">
+          <div class="fourbyone_4"></div>
+        </a>
+      </div>
+      <div class="savebox">
+        <img src="{% static 'images/downloadbtn.png' %}" style="width:69px; height:69px;">
+      </div>
+      <div class="instagram">
+        <img src="{% static 'images/instagrambtn.png' %}" style="width:69px; height:69px;">
       </div>
     </div>
   </body>

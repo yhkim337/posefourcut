@@ -21,7 +21,7 @@
         <a href="{% url 'fourbyone_1' %}">
           <div class="fourbyone_1"></div>
         </a>
-        <a href="{% url 'fourbyone_2' %}">
+        {% comment %} <a href="{% url 'fourbyone_2' %}">
           <div class="fourbyone_2"></div>
         </a>
         <a href="{% url 'fourbyone_3' %}">
@@ -29,7 +29,7 @@
         </a>
         <a href="{% url 'fourbyone_4' %}">
           <div class="fourbyone_4"></div>
-        </a>
+        </a> {% endcomment %}
       </div>
       <div class="savebox">
         <img src="{% static 'images/downloadbtn.png' %}" style="width:69px; height:69px;">

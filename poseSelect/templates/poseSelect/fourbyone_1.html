@@ -31,11 +31,23 @@
             <img src="{% static 'images/fourmore_unselect.png' %}" style="width:73px; height:36px;">
           </div>
         </div>
+        <div class="db">
+          <div class="none">
+            <img src="{% static 'images/db/fourbyone/none.png' %}" style="width:172px; height:137px;">
+          </div>
+          <img class= "sample" src="{% static 'images/db/fourbyone/sample.png' %}" style="width:172px; height:137px;">
+          <div class="modal">
+            <span class="close">&times;</span>
+            <img class="modal_content">
+            <div id="image">
+          </div>
         <div class="gobackbutton">
             <a href="{% url 'fourbyone' %}">
               <img src="{% static 'images/gobackbutton.png' %}" style="width:69px; height:69px;">
             </a>
         </div>
     </div>
+    <script src="{% static 'js/modal.js' %}"></script>
+    <script src="{% static 'js/imagedownload.js' %}"></script>
   </body>
 </html>

@@ -39,8 +39,14 @@
           <div class="modal">
             <span class="close">&times;</span>
             <img class="modal_content">
-            <div id="image">
+            {% comment %} <div id="image"> {% endcomment %}
+            <div class="apply">
+              {% comment %} <a href="{% url 'fourbyone' %}"> {% endcomment %}
+                <button onclick="toggleImg()">apply</button>
+              </a>
+            </div>
           </div>
+        </div>
         <div class="gobackbutton">
             <a href="{% url 'fourbyone' %}">
               <img src="{% static 'images/gobackbutton.png' %}" style="width:69px; height:69px;">
@@ -49,5 +55,6 @@
     </div>
     <script src="{% static 'js/modal.js' %}"></script>
     <script src="{% static 'js/imagedownload.js' %}"></script>
+    <script src="{% static 'js/apply.js' %}"></script>
   </body>
 </html>

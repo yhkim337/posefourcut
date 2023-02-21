@@ -19,7 +19,9 @@
       </div>
       <div class="frame_fourbyone">
         <a href="{% url 'fourbyone_1' %}">
-          <div class="fourbyone_1"></div>
+          <div class="fourbyone_1">
+            <img id="img" src="{% static 'images/db/fourbyone/none.png' %}" style="width:172px; height:137px;">
+          </div>
         </a>
         {% comment %} <a href="{% url 'fourbyone_2' %}">
           <div class="fourbyone_2"></div>
@@ -32,11 +34,12 @@
         </a> {% endcomment %}
       </div>
       <div class="savebox">
-        <img src="{% static 'images/downloadbtn.png' %}" style="width:69px; height:69px;">
+        <a href="images/db/sample.png" download><button><img src="{% static 'images/downloadbtn.png' %}" style="width:69px; height:69px;"></button></a>
       </div>
       <div class="instagram">
         <img src="{% static 'images/instagrambtn.png' %}" style="width:69px; height:69px;">
       </div>
     </div>
+    <script src="{% static 'js/apply.js' %}"></script>
   </body>
 </html>

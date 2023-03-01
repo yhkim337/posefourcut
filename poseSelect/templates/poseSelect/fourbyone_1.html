@@ -42,8 +42,10 @@
             {% comment %} <div id="image"> {% endcomment %}
             <div class="apply">
               {% comment %} <a href="{% url 'fourbyone' %}"> {% endcomment %}
-                <button onclick="toggleImg()">apply</button>
-              </a>
+                {% comment %} <form method='POST' onsubmit="toggleImg()"> {% endcomment %}
+                  <button type="submit" onclick="toggleImg()">apply</button>
+                {% comment %} </form> {% endcomment %}
+              {% comment %} </a> {% endcomment %}
             </div>
           </div>
         </div>

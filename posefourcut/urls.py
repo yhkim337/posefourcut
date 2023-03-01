@@ -7,6 +7,7 @@ import poseSelect.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', poseSelect.views.index, name='index'),
+    path('fourbyone/?image_url=<image_url>', poseSelect.views.fourbyone_image, name='fourbyone_image'),
     path('fourbyone/', poseSelect.views.fourbyone, name='fourbyone'),
     path('twobytwo/', poseSelect.views.twobytwo, name='twobytwo'),
     path('fourbyone_1/', poseSelect.views.fourbyone_1, name='fourbyone_1'),

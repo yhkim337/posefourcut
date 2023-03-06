@@ -8,6 +8,7 @@ sample.addEventListener('click', ()=>{
   modalDisplay("block");
   modal_sample.src = sample.src;
 });
+
 span.addEventListener('click', ()=>{
   modalDisplay("none");
 });

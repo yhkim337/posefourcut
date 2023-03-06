@@ -137,7 +137,7 @@ a {
 .fourbyone_2 {
   position: absolute;
   width: 84%;
-  height: 18.7vh;
+  height: 37.4vh;
   margin-left: 7.8%;
   margin-right: 7.8%;
   margin-top: 186px;
@@ -282,6 +282,11 @@ a {
   left: 198px;
 }
 
+.H_154_2 {
+  position : fixed;
+  top : 350px;
+  left: 11px;
+}
 
 .modal {
   display: none; /* 모달창 숨겨 놓기 */
